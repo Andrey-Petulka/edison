@@ -1,0 +1,399 @@
+body {
+    color: #000;
+    background-color: #FCFCFC;
+    word-wrap: break-word;
+    font-family: Verdana, Arial, Sans-Serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header{
+    background-image: url("image/header__background.png");
+}
+
+.header__navigation{
+   max-width: 1220px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__navigation{
+    padding-top: 30px;
+}
+
+.site-navigation{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 650px;
+    padding: 0;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.user-navigation{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 340px;
+    margin-left: auto;
+}
+
+.user-navigation__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-navigation__link--active{
+    padding-bottom: 4px;
+    border-bottom: 1px #4A5FCF solid;
+}
+
+.site-navigation__link--accent{
+    text-transform: uppercase;
+    color: #FB0F39;
+    padding-bottom: 4px;
+    border-bottom: 1px #FB0F39 solid;
+}
+/*Заставка*/
+.screen{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("image/section__1/background-section.jpg");
+    background-size: cover;
+    background-position-y: -80px;
+    height: 950px;
+}
+
+.screen__container{
+    display: flex;
+    justify-content: flex-start;
+    width: 1220px;
+}
+
+.promo{
+    max-width: 600px;
+}
+
+.promo-content{
+    margin-bottom: 55px;
+}
+
+.promo-content__title{
+    color: #4A5FCF;
+    font-size: 76px;
+}
+
+.promo-content__subtitle{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.promo-content__title{
+    margin: 0;
+}
+
+.promo-link{
+    color: white;
+    background-color: #4D66EC;
+    padding: 20px 34px 20px 34px;
+    margin-top: 100px;
+}
+
+/*Товары*/
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.section__container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1220px;
+}
+
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-head__title{
+    font-size: 34px;
+}
+
+.section-head__link{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4D66EC;
+}
+
+.store,
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    max-width: 275px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.button--secondary{
+    background: #FCFCFC;
+    border: 1px solid #4D66EC;
+    padding: 13px 30px 13px 30px;
+}
+
+.button--primary{
+    color: white;
+    background-color: #4D66EC;
+    padding: 13px 25px 13px 25px;
+}
+
+.card-info__price,
+.card-info__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Блог*/
+
+.section--grey{
+    background-color: #F5F8FC;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.news-card{
+    max-width: 380px;
+}
+
+.news-card__description{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.news-card__title{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/*Отзывы*/
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-card{
+    max-width: 400px;
+    border: 1px solid #E0E2EC;
+    padding: 30px;
+}
+
+.feedback-card__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feedback-card__data-user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.feedback-card__data-user-icon{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.feedback-card__data-user-name{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.feedback-card__date{
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+
+.feedback-card__description{
+    color: #404254;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-row{
+    max-width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.footer-column{
+    max-width: 160px;
+}
+
+.footer-column__item{
+    padding-top: 18px;
+    color: #404254;
+    font-size: 12px;
+}
+
+.footer-column__title{
+    color: #2F3250;
+    font-size: 16px;
+}
+
+.footer-column__list{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column__list-item{
+    margin-top: 18px;
+}
+
+.footer-column__list-image{
+    margin-right: 10px;
+}
+
+.mailing{
+    max-width: 380px;
+}
+
+.mailing__description{
+    color: #404254;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 21px;
+}
+
+.footer-column__title{
+    margin: 0;
+}
+
+.mailing__field{
+    padding: 18px 15px;
+    width: 90%;
+    border: 1px solid #E0E2EC;
+    background-color: #FCFCFC;
+}
+
+.payment__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment__list{
+    padding: 0;
+    margin: 0;
+}
+
+.payment__category{
+    margin: 0;
+}
+
+.payment{
+    margin-top: 54px;
+}
+
+.mailing__field{
+    background-image: url("image/footer/telegram.svg");
+    background-position: 93% 50%;
+    background-repeat: no-repeat;
+}
+
+.footer-row{
+    margin-top: 40px;
+}
+
+.footer-column__link{
+    white-space: nowrap;
+    border-top: 1px solid #E0E2EC;
+    padding-top: 20px;
+}
