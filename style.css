@@ -3,8 +3,8 @@ body {
     background-color: #FCFCFC;
     word-wrap: break-word;
     font-family: Verdana, Arial, Sans-Serif;
-    margin: 0 auto;
     overflow-x: hidden;
+    margin: 0;
 }
 
 li{
@@ -23,9 +23,10 @@ header{
     display: flex;
     align-items: center;
     max-width: 1220px;
-    padding: 20px 20px;
     margin: 0 auto;
     width: 1220px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .header{
@@ -46,22 +47,6 @@ header{
     padding-right: 30px;
 }
 
-.user-navigation{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 25px;
-    max-width: 340px;
-    margin-left: auto;
-}
-
-.user-navigation__item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .site-navigation__item--active{
     padding-bottom: 4px;
     border-bottom: 1px #4A5FCF solid;
@@ -73,6 +58,23 @@ header{
     padding-bottom: 4px;
     border-bottom: 1px #FB0F39 solid;
 }
+
+.user-navigation{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 340px;
+    margin-left: auto;
+}
+
+.user-navigation__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /*Заставка*/
 .screen{
     display: flex;
@@ -86,34 +88,24 @@ header{
     justify-content: center;
 }
 
-.screen__container{
-    display: flex;
-    justify-content: flex-start;
-    width: 1220px;
-}
-
 .promo{
     max-width: 600px;
 }
 
-.promo-content{
+.promo__content{
     margin-bottom: 55px;
 }
 
-.promo-content__title{
+.promo__content-title{
     color: #4A5FCF;
     font-size: 76px;
 }
 
-.promo-content__subtitle{
+.promo__content-subtitle{
     font-size: 22px;
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 0;
-}
-
-.promo-content__title{
-    margin: 0;
 }
 
 .promo__link{
