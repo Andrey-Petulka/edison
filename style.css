@@ -15,10 +15,6 @@ a{
     text-decoration: none;
 }
 
-header{
-    background-image: url("image/header__background.png");
-}
-
 .container{
     display: flex;
     align-items: center;
@@ -33,6 +29,8 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("image/header__background.png");
 }
 
 .site-navigation{
@@ -79,13 +77,11 @@ header{
 .screen{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     background-image: url("image/section__1/background-section.jpg");
     background-size: cover;
-    background-position-y: -80px;
-    height: 950px;
-    display: flex;
-    justify-content: center;
+    background-position-y: -90px;
+    height: 600px;
+    max-height: 100%;
 }
 
 .promo{
@@ -116,6 +112,10 @@ header{
 }
 
 /*Товары*/
+.collection{
+display: flex;
+    justify-content: center;
+}
 
 .section__container{
     padding-top: 120px;
