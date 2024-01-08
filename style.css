@@ -15,31 +15,22 @@ a{
     text-decoration: none;
 }
 
-.block{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 header{
     background-image: url("image/header__background.png");
 }
 
-.header__navigation{
-   max-width: 1220px;
-}
-
 .container{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    max-width: 1220px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    width: 1220px;
 }
 
 .header{
     display: flex;
     justify-content: center;
-}
-
-.header__navigation{
     padding-top: 30px;
 }
 
@@ -71,12 +62,12 @@ header{
     flex-wrap: wrap;
 }
 
-.site-navigation__link--active{
+.site-navigation__item--active{
     padding-bottom: 4px;
     border-bottom: 1px #4A5FCF solid;
 }
 
-.site-navigation__link--accent{
+.site-navigation__item--accent{
     text-transform: uppercase;
     color: #FB0F39;
     padding-bottom: 4px;
@@ -91,6 +82,8 @@ header{
     background-size: cover;
     background-position-y: -80px;
     height: 950px;
+    display: flex;
+    justify-content: center;
 }
 
 .screen__container{
@@ -123,7 +116,7 @@ header{
     margin: 0;
 }
 
-.promo-link{
+.promo__link{
     color: white;
     background-color: #4D66EC;
     padding: 20px 34px 20px 34px;
@@ -131,11 +124,6 @@ header{
 }
 
 /*Товары*/
-
-.section{
-    display: flex;
-    justify-content: center;
-}
 
 .section__container{
     padding-top: 120px;
