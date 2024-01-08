@@ -99,6 +99,7 @@ header{
 .promo__content-title{
     color: #4A5FCF;
     font-size: 76px;
+    margin: 0;
 }
 
 .promo__content-subtitle{
@@ -108,11 +109,10 @@ header{
     margin-bottom: 0;
 }
 
-.promo__link{
+.promo__button{
     color: white;
     background-color: #4D66EC;
     padding: 20px 34px 20px 34px;
-    margin-top: 100px;
 }
 
 /*Товары*/
