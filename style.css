@@ -79,9 +79,8 @@ a{
     justify-content: flex-start;
     background-image: url("image/section__1/background-section.jpg");
     background-size: cover;
-    background-position-y: -90px;
-    height: 600px;
-    max-height: 100%;
+    background-position-y: -105px;
+    height: 930px;
 }
 
 .promo{
@@ -113,52 +112,50 @@ a{
 
 /*Товары*/
 .collection{
-display: flex;
+    display: flex;
     justify-content: center;
-}
-
-.section__container{
     padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 1220px;
 }
 
-.section-head{
+.head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.section-head__title{
+.head__title{
     font-size: 34px;
+    margin: 0;
 }
 
-.section-head__link{
+.head__link{
     padding-bottom: 5px;
     border-bottom: 1px solid #4D66EC;
 }
 
-.store,
-.news{
+.products{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-.product-card{
+.products__card{
     max-width: 275px;
 }
 
-.card-info{
+.card__body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
-.button-block{
+.card__footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,10 +177,11 @@ display: flex;
     padding: 13px 25px 13px 25px;
 }
 
-.card-info__price,
-.card-info__title{
+.card__body-title,
+.card__body-price{
     font-size: 18px;
     font-weight: 500;
+    margin: 0;
 }
 
 /*Блог*/
