@@ -123,6 +123,7 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .head__title{
@@ -138,6 +139,7 @@ a{
 .products{
     display: flex;
     justify-content: center;
+
     gap: 40px;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -147,12 +149,23 @@ a{
     max-width: 275px;
 }
 
+.card__body-title,
+.card__body-price{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
 .card__body{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.card__body--gorizontal{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    flex-wrap: nowrap;
 }
 
 .card__footer{
@@ -163,53 +176,50 @@ a{
     gap: 10px;
     font-weight: 500;
     font-size: 14px;
+    margin-top: 25px;
 }
 
 .button--secondary{
+    display: flex;
+    justify-content: center;
     background: #FCFCFC;
     border: 1px solid #4D66EC;
     padding: 13px 30px 13px 30px;
+    width: 30%;
 }
 
 .button--primary{
+    display: flex;
+    justify-content: center;
     color: white;
     background-color: #4D66EC;
     padding: 13px 25px 13px 25px;
-}
-
-.card__body-title,
-.card__body-price{
-    font-size: 18px;
-    font-weight: 500;
-    margin: 0;
+    width: 30%;
 }
 
 /*Блог*/
+.blog{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.section--grey{
+.blog--grey{
     background-color: #F5F8FC;
 }
 
-.news{
+.article{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 40px;
     flex-wrap: wrap;
 }
 
-.news-card{
+.article__card{
     max-width: 380px;
 }
 
-.news-card__description{
-    margin-bottom: 25px;
+.card__body-description{
     margin-top: 15px;
-}
-
-.news-card__title{
-    margin-top: 20px;
-    font-size: 18px;
 }
 
 /*Отзывы*/

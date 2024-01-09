@@ -71,15 +71,17 @@
         </section>
         <section class="collection">
             <div class="container">
-                <div class="widget">
+                <div class="stack">
                     <div class="head">
                         <h2 class="head__title">Новая коллекция</h2>
                         <a href="#" class="head__link link">Смотреть все</a>
                     </div>
                     <div class="products">
                         <div class="products__card card">
-                            <img src="image/section__2/product__1.png" alt="Туфли Shein" class="card__image">
-                            <div class="card__body">
+                            <div class="card__header">
+                                <img src="image/section__2/product__1.png" alt="Туфли Shein" class="card__header-image">
+                            </div>
+                            <div class="card__body card__body--gorizontal">
                                 <h3 class="card__body-title">Туфли Shein</h3>
                                 <span class="card__body-price">17 500 ₽</span>
                             </div>
@@ -89,8 +91,10 @@
                             </div>
                         </div> 
                         <div class="products__card card">
-                            <img src="image/section__2/product__2.jpg" alt="Мюли Grace" class="card__image">
-                            <div class="card__body">
+                            <div class="card__header">
+                                <img src="image/section__2/product__2.jpg" alt="Мюли Grace" class="card__header-image">
+                            </div>
+                            <div class="card__body card__body--gorizontal">
                                 <h3 class="card__body-title">Мюли Grace</h3>
                                 <span class="card__body-price">15 000 ₽</span>
                             </div>
@@ -100,9 +104,11 @@
                             </div>
                         </div> 
                         <div class="products__card card">
-                            <img src="image/section__2/product__3.jpg" alt="Кроссовки Brand" class="card__image">
-                            <div class="card__body">
-                                <h3 class="card__body-title">Кроссовки Brand</h3>
+                            <div class="card__header">
+                                <img src="image/section__2/product__3.jpg" alt="Кроссовки Brand" class="card__header-image">
+                            </div>
+                            <div class="card__body card__body--gorizontal">
+                                <h3 class="card__body-title card__body--gorizontal">Кроссовки Brand</h3>
                                 <span class="card__body-price">9 500 ₽</span>
                             </div>
                             <div class="card__footer">
@@ -111,9 +117,11 @@
                             </div>
                         </div> 
                         <div class="products__card card">
-                            <img src="image/section__2/product__4.jpg" alt="Ботинки Kelly" class="card__image">
-                            <div class="card__body">
-                                <h3 class="card__body-title">Ботинки Kelly</h3>
+                            <div class="card__header">
+                                <img src="image/section__2/product__4.jpg" alt="Ботинки Kelly" class="card__header-image">
+                            </div>
+                            <div class="card__body card__body--gorizontal">
+                                <h3 class="card__body-title card__body--gorizontal">Ботинки Kelly</h3>
                                 <span class="card__body-price">18 500 ₽</span>
                             </div>
                             <div class="card__footer">
@@ -125,77 +133,96 @@
                 </div>
             </div>
         </section>
-        <section class="section section--grey">
-            <div class="section__container">
-                <div class="section-head">
-                    <h2 class="section-head__title">Блог</h2>
-                    <a href="#" class="section-head__link">Все статьи</a>
-                </div>
-                <div class="news">
-                    <div class="news-card">
-                        <img src="image/section__3/news__1.png" alt="Туфли Shein" class="news-card__image">
-                        <h3 class="news-card__title">Как ухаживать за кожаной обувью</h3>
-                        <p class="news-card__description">Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и не жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и своевременно ухаживать.
-                        </p>
-                        <a href="#" class="button button--primary news-card__button">Читать статью</a>
+        <section class="blog blog--grey">
+            <div class="container">
+                <div class="stack">
+                    <div class="head">
+                        <h2 class="head__title">Блог</h2>
+                        <a href="#" class="head__link link">Все статьи</a>
                     </div>
-                    <div class="news-card">
-                        <img src="image/section__3/news__1.png" alt="Туфли Shein" class="news-card__image">
-                        <h3 class="news-card__title">Как ухаживать за кожаной обувью</h3>
-                        <p class="news-card__description">Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и не жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и своевременно ухаживать.
-                        </p>
-                        <a href="#" class="button button--primary news-card__button">Читать статью</a>
+                    <div class="article">
+                        <div class="article__card card">
+                            <div class="card__header">
+                                <img src="image/section__3/news__1.png" alt="Как ухаживать за кожаной обувью" class="card__header-image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__body-title">Как ухаживать за кожаной обувью</h3>
+                                <p class="card__body-description">Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и не жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и своевременно ухаживать.</p>
+                            </div>
+                            <div class="card__footer">
+                                <a href="#" class="button button--primary">Читать статью</a>
+                            </div>
+                        </div>
+                        <div class="article__card card">
+                            <div class="card__header">
+                                <img src="image/section__3/news__2.jpg" alt="Как ухаживать за кожаной обувью" class="card__header-image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__body-title">Как выбрать обувь в 2021</h3>
+                                <p class="card__body-description">Стилист и ведущая программы “Все о моде” Ева Миллер рассказала о трендах обуви этого года. Современная мода удивляет многообразием формы и цветовой гаммы, а ключевым трендом является комфорт, удобство и лаконичность.</p>
+                            </div>
+                            <div class="card__footer">
+                                <a href="#" class="button button--primary">Читать статью</a>
+                            </div>
+                        </div>
+                        <div class="article__card card">
+                            <div class="card__header">
+                                <img src="image/section__3/news__3.jpg" alt="Как ухаживать за кожаной обувью" class="card__header-image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__body-title">Как правильно выбирать кеды</h3>
+                                <p class="card__body-description">Кеды - одна их самых популярных моделей обуви уже не первый сезон. Их можно носить с любой одеждой: платьем, костюмом, джинсами и т.д. Такую обувь любят и мужчины и женщины и дети. Рассказываем, как выбрать качественные кеды.</p>
+                            </div>
+                            <div class="card__footer">
+                                <a href="#" class="button button--primary">Читать статью</a>
+                            </div>
+                        </div>   
                     </div>
-                    <div class="news-card">
-                        <img src="image/section__3/news__1.png" alt="Туфли Shein" class="news-card__image">
-                        <h3 class="news-card__title">Как ухаживать за кожаной обувью</h3>
-                        <p class="news-card__description">Обувь из натуральной кожи практичная, красивая и долговечная. Благодаря материалу, в ней тепло зимой и не жарком летом. Чтобы кожаная обувь прослужила вам ни один год, за ней необходимо правильно и своевременно ухаживать.
-                        </p>
-                        <a href="#" class="button button--primary news-card__button">Читать статью</a>
-                    </div>                   
-                </div>
+               </div>
             </div>
         </section>
-        <section class="section">
+        <section class="review">
             <div class="section__container">
-                <div class="section-head">
-                    <h2 class="section-head__title">Отзывы</h2>
-                    <a href="#" class="section-head__link">Все отзывы</a>
-                </div>
-                <div class="reviews">
-                    <div class="feedback-card">
-                        <div class="feedback-card__data">
-                            <div class="feedback-card__data-user">
-                                <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
-                                <h3 class="feedback-card__data-user-name">Валерия</h3>
-                            </div>
-                            <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
-                        </div>
-                        <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
-                        </p>
+                <div class="stack">
+                    <div class="section-head">
+                        <h2 class="section-head__title">Отзывы</h2>
+                        <a href="#" class="section-head__link">Все отзывы</a>
                     </div>
-                    <div class="feedback-card">
-                        <div class="feedback-card__data">
-                            <div class="feedback-card__data-user">
-                                <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
-                                <h3 class="feedback-card__data-user-name">Валерия</h3>
+                    <div class="reviews">
+                        <div class="feedback-card">
+                            <div class="feedback-card__data">
+                                <div class="feedback-card__data-user">
+                                    <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
+                                    <h3 class="feedback-card__data-user-name">Валерия</h3>
+                                </div>
+                                <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
                             </div>
-                            <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
+                            <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
+                            </p>
                         </div>
-                        <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
-                        </p>
+                        <div class="feedback-card">
+                            <div class="feedback-card__data">
+                                <div class="feedback-card__data-user">
+                                    <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
+                                    <h3 class="feedback-card__data-user-name">Валерия</h3>
+                                </div>
+                                <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
+                            </div>
+                            <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
+                            </p>
+                        </div>
+                        <div class="feedback-card">
+                            <div class="feedback-card__data">
+                                <div class="feedback-card__data-user">
+                                    <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
+                                    <h3 class="feedback-card__data-user-name">Валерия</h3>
+                                </div>
+                                <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
+                            </div>
+                            <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
+                            </p>
+                        </div> 
                     </div>
-                    <div class="feedback-card">
-                        <div class="feedback-card__data">
-                            <div class="feedback-card__data-user">
-                                <img src="image/section__4/rewiew__1.jpg" alt="Туфли Shein" class="feedback-card__data-user-icon">
-                                <h3 class="feedback-card__data-user-name">Валерия</h3>
-                            </div>
-                            <time datetime="2021-06-28" class="feedback-card__date">28 июня 2021</time>
-                        </div>
-                        <p class="feedback-card__description">Очень любим магазин Edison, покупаем тут обувь всем членам семьи. Отличное цена и качество, только оригиналы. Обменять неподошедший размер тоже не проблема. Спасибо, любимый магазин Edison!
-                        </p>
-                    </div> 
                 </div>
             </div>
         </section>
