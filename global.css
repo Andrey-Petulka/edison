@@ -50,3 +50,20 @@ a{
     padding: 13px 25px 13px 25px;
     width: 30%;
 }
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head__title{
+    font-size: 34px;
+    margin: 0;
+}
+
+.head__link{
+    border-bottom: 1px solid #4D66EC;
+    padding-top: 20px;
+}

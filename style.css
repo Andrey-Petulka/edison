@@ -75,7 +75,6 @@ a{
     flex-wrap: wrap;
 }
 
-/*Заставка*/
 .screen{
     display: flex;
     justify-content: flex-start;
@@ -106,29 +105,11 @@ a{
     margin-bottom: 0;
 }
 
-/*Товары*/
 .collection{
     display: flex;
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.head__title{
-    font-size: 34px;
-    margin: 0;
-}
-
-.head__link{
-    border-bottom: 1px solid #4D66EC;
-    padding-top: 20px;
 }
 
 .tabs--collection{
@@ -173,7 +154,6 @@ a{
     margin-top: 25px;
 }
 
-/*Блог*/
 .blog{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -198,8 +178,6 @@ a{
 .card__body-description{
     margin-top: 15px;
 }
-
-/*Отзывы*/
 
 .review{
     display: flex;
@@ -251,8 +229,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 }
-
-/*Footer*/
 
 .footer{
     display: flex;
