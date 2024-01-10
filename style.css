@@ -106,12 +106,6 @@ a{
     margin-bottom: 0;
 }
 
-.promo__button{
-    color: white;
-    background-color: #4D66EC;
-    padding: 20px 34px 20px 34px;
-}
-
 /*Товары*/
 .collection{
     display: flex;
@@ -177,24 +171,6 @@ a{
     font-weight: 500;
     font-size: 14px;
     margin-top: 25px;
-}
-
-.button--secondary{
-    display: flex;
-    justify-content: center;
-    background-color: #FCFCFC;
-    border: 1px solid #4D66EC;
-    padding: 13px 30px 13px 30px;
-    width: 30%;
-}
-
-.button--primary{
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: #4D66EC;
-    padding: 13px 25px 13px 25px;
-    width: 30%;
 }
 
 /*Блог*/
